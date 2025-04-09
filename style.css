@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+}
+
+main {
+    text-align: center;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    padding: 1em 2em;
+    background-color: aquamarine;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+#score {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-block: 2em;
+}
